@@ -1,0 +1,7 @@
+register: /api/register POST
+authenticate: /api/auth POST
+passwordchange: /api/passwdchange POST
+list: /api/session/list GET
+terminate: /api/session/terminate/current POST
+terminate: /api/session/terminate/all POST
+terminate: /api/session/terminate/id POST

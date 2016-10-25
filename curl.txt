@@ -1,0 +1,11 @@
+Register new user:
+------------------
+curl --form email=sukumar.raghavan@gmail.com --form password=abcd123 http://localhost:8080/api/register
+
+Authenticate new user:
+----------------------
+curl --form email=sukumar.raghavan@gmail.com --form password=abcd123 http://localhost:8080/api/auth
+
+Change password:
+----------------
+curl --form email=sukumar.raghavan@gmail.com --form password=abcd123 --form newpassword=123abcd http://localhost:8080/api/passwdchange

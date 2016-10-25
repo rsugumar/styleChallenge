@@ -1,0 +1,11 @@
+{
+  "name": "Challenge",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "jsonwebtoken": "^7.1.9",
+    "mongoose": "^4.6.5",
+    "restify": "^4.1.1",
+    "restify-cookies": "^0.2.2"
+  }
+}
